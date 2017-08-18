@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "convert-hex": "^0.1.0",
+    "dotenv": "^4.0.0",
     "pcap2": "^3.0.4"
   }
 }
