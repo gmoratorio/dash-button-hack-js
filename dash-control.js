@@ -50,6 +50,7 @@ const arpListener = require('arp-listener'),
 
 
 const os = process.platform;
+console.log(os);
 
 let interface = null;
 
