@@ -50,7 +50,7 @@ const arpListener = require('arp-listener'),
 
 
 const os = process.platform;
-console.log(os);
+
 
 let interface = null;
 
@@ -60,12 +60,16 @@ switch (os) {
         interface = 'en0';
         break;
 
+    case 'linux':
+        interface = 'wlan0';
+        break;
+
     default:
         interface = 'wlan0';
         break;
 }
 
-
+console.log(interface);
 arpListener(interface, function (arpData) {
 
 
