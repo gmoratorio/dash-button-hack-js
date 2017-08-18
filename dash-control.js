@@ -70,8 +70,8 @@ switch (os) {
 }
 
 console.log(interface);
-arpListener('en0', function (arpData) {
-
+arpListener(interface, function (arpData) {
+console.log(arpData);
 
     let MACIgnoreArray = [
         '18:65:90:dc:a6:99',
@@ -107,4 +107,3 @@ arpListener('en0', function (arpData) {
 
 
 })
-
