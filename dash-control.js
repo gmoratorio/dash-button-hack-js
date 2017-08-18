@@ -70,7 +70,7 @@ switch (os) {
 }
 
 console.log(interface);
-arpListener(interface, function (arpData) {
+arpListener('wlan0', function (arpData) {
 
 
     let MACIgnoreArray = [
@@ -107,3 +107,4 @@ arpListener(interface, function (arpData) {
 
 
 })
+
