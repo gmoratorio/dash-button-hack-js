@@ -10,8 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "convert-hex": "^0.1.0",
+    "arp-listener": "^1.0.0",
     "dotenv": "^4.0.0",
-    "pcap2": "^3.0.4"
+    "lodash": "^4.17.4",
   }
 }
