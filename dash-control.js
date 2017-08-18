@@ -90,6 +90,7 @@ arpListener(interface, function (arpData) {
     ];
 
     const thisMAC = arpData.sender_ha;
+    console.log(thisMAC);
     const isANewMACAddress = !_.includes(MACIgnoreArray, thisMAC);
 
     if (isANewMACAddress) {
