@@ -1,0 +1,16 @@
+{
+  "name": "dash-button-control-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dash-control.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "convert-hex": "^0.1.0",
+    "pcap2": "^3.0.4"
+  }
+}
